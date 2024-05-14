@@ -2,9 +2,12 @@
   "name": "vite-test",
   "version": "1.0.0",
   "description": "Tutorial for vite-test",
+  "type": "module",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon start app.js",
-    "test": "vitest"
+    "start": "nodemon start",
+    "test": "vitest",
+    "test:watch": "vitest"
   },
   "author": "",
   "license": "ISC",
